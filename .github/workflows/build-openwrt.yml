@@ -126,7 +126,6 @@ jobs:
       run: |
         cd openwrt/bin/targets/*/*
         rm -rf packages
-        rm -rf config.buildinfo
         rm -rf feeds.buildinfo
         rm -rf generic-kernel.bin
         rm -rf generic.manifest

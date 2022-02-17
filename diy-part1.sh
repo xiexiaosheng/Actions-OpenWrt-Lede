@@ -14,9 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git openclash https://github.com/vernesong/OpenClash;dev' >>feeds.conf.default
+#echo 'src-git openclash https://github.com/vernesong/OpenClash;dev' >>feeds.conf.default
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 sed -i 's/PATCHVER:=5.10/PATCHVER:=5.15/g' target/linux/x86/Makefile
